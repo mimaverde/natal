@@ -1,0 +1,20 @@
+@font-face {
+ font-family: 'segoebold';
+ src: url('~@/assets/fonts/segoe-bold.woff2') format('woff2'),
+      url('~@/assets/fonts/segoe-bold.woff') format('woff'),
+      url('~@/assets/fonts/segoe-bold.svg#segoebold') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'segoeregular';
+ src: url('~@/assets/fonts/segoe-regular.woff2') format('woff2'),
+      url('~@/assets/fonts/segoe-regular.woff') format('woff'),
+      url('~@/assets/fonts/segoe-regular.svg#segoeregular') format('svg');
+ font-weight: normal;
+ font-style: normal; 
+}
+
+$bold: segoebold;
+$regular: segoeregular;
